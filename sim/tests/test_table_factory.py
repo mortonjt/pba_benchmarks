@@ -88,11 +88,6 @@ class TestParams(unittest.TestCase):
                             [0., 0., 0., 0., 0., 0., 0., 0., 0., 1.],
                             [0., 0., 0., 0., 0., 0., 0., 0., 0., 1.],
                             [0., 0., 0., 0., 0., 0., 0., 0., 0., 0.]])
-            print interaction
-            print 'actual'
-            print corr_mat
-            print 'expected'
-            print exp
             npt.assert_array_equal(corr_mat, exp)
 
 if __name__ == "__main__":
